@@ -1,3 +1,37 @@
-.u-section-1 .u-sheet-1 {
-  min-height: 400px;
+.contact-me{
+  width: 100%;
+  height: 290px;
+  background: darkturquoise;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-me p{
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-family: 'Righteous', cursive;
+
+}
+
+
+.contact-me .button-two{
+  background-color:blue;
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+
+.contact-me .button-two:hover{
+  background-color: transparent;
+  border:blue;
+  cursor: pointer;
 }
